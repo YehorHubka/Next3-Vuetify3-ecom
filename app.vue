@@ -103,6 +103,7 @@ const sortBy = ref("");
 const order = ref("asending");
 const data = ref(products.value.products);
 const name = ref("");
+console.log();
 
 const filteredProducts = computed(() => {
   if (name.value) {
